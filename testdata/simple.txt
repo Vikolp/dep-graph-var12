@@ -1,0 +1,7 @@
+# Simple dependency graph (variant 12 format)
+A: B C
+B: D
+C: D E
+D:
+E: F
+F:

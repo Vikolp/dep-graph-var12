@@ -1,0 +1,10 @@
+# Branching graph with shared nodes and a cycle
+A: B C
+B: D E
+C: E F
+D: G
+E: G H
+F: B I
+G:
+H: I
+I:
