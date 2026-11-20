@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+package "A" as pkg_0
+package "B" as pkg_1
+package "C" as pkg_2
+package "D" as pkg_3
+package "E" as pkg_4
+package "F" as pkg_5
+pkg_0 --> pkg_1
+pkg_0 --> pkg_2
+pkg_1 --> pkg_3
+pkg_2 --> pkg_3
+pkg_2 --> pkg_4
+pkg_4 --> pkg_5
+@enduml
